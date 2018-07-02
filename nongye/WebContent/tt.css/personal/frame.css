@@ -1,0 +1,345 @@
+body{
+    background-color: #eceef3;
+}
+
+/*- main -*/
+.main{
+    overflow: hidden;
+}
+
+/*- frame-menu -*/
+.frame-menu{
+    float: left;
+    width: 190px;
+}
+.frame-menu .title{
+    height: 45px;
+    background-color: #1faa50;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+.frame-menu ul.jump-menu{
+    padding: 15px 0 5px 0;
+}
+.frame-menu ul.jump-menu li{
+    height: 33px;
+    width: 167px;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+    border: #dddddd solid 1px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+}
+.frame-menu ul.jump-menu li a{
+    display: block;
+    width: 167px;
+    height: 33px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+}
+.frame-menu ul.jump-menu li a:hover{
+    background-color: #1faa50;
+    text-decoration: none;
+    color: #ffffff;
+}
+.frame-menu ul.menu-list li h2{
+    font-size: 16px;
+}
+.frame-menu ul.menu-list li h2 em{
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin: 9px 0 0 15px;
+    padding: 0;
+    display: none;
+}
+.frame-menu ul.menu-list li h2 em img{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.frame-menu ul.menu-list li h2 span{
+    display: block;
+    overflow: hidden;
+    padding: 10px 15px;
+    line-height: 28px;
+    height: 28px;
+    color: #00b845;
+    background: #f3fff8;
+}
+.frame-menu ul.menu-list li dl{
+    font-size: 14px;
+}
+.frame-menu ul.menu-list li dl dd{
+    overflow: hidden;
+}
+.frame-menu ul.menu-list li dl dd a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    color: #333333;
+    text-decoration: none;
+    padding-left: 36px;
+    background: url(../../../images/personal/uc-frame-main-dot.gif) no-repeat 18px 50%;
+}
+.frame-menu ul.menu-list li dl dd a:hover{
+    color: #f47a11;
+    text-decoration: none;
+}
+.frame-menu ul.menu-list li dl dd.cur{
+}
+.frame-menu ul.menu-list li dl dd.cur a{
+    color: #ffffff;
+    background-color: #00b845;
+    background-image: url(../../../images/personal/uc-frame-main-dot-alt.gif);
+}
+.frame-menu .accordion {
+
+margin-bottom: 0px;
+}
+.frame-menu .accordion .major {
+    position: relative;
+    margin-top: -1px;
+}
+.frame-menu .accordion .majorLast {
+    zoom: 1;
+}
+.frame-menu .accordion .subtit {
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 1px solid #e8e8e8;
+}
+.frame-menu .accordion .subtit.act {
+    border-right-color: #ff8b12;
+}
+.frame-menu .accordion .subtit a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 0 0 32px;
+    text-decoration: none !important;
+    color: #333 !important;
+    background: no-repeat 10px 50%;
+}
+.frame-menu .accordion .subtit a:hover {
+    text-decoration: none;
+}
+.frame-menu .accordion .subtit img {
+    margin-right: 8px;
+    vertical-align: middle;
+    _vertical-align: -10px;
+}
+.frame-menu .accordion .subtit span {
+    vertical-align: middle;
+    _vertical-align: -6px;
+}
+.frame-menu .accordion .subtit .spread, .sideNav .subtit .shrink {
+    position: absolute;
+    left: 16px;
+    _left: 20px;
+    top: 22px;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    background: url(../../../images/personal/frame-main-shrink.gif) no-repeat;
+}
+.frame-menu .accordion .subtit .shrink {
+    background-image: url(../../../images/personal/frame-main-spread.gif);
+}
+.frame-menu .accordion .sublist {
+    padding-top: 0;
+    padding-bottom: 8px;
+    border-top: none;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    *zoom: 1;
+}
+.frame-menu .accordion .sublist.last {
+    border-bottom: none;
+}
+.frame-menu .accordion .sublist li {
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #fff;
+    background: no-repeat left center;
+}
+.frame-menu .accordion .sublist li a {
+    display: block;
+    padding-left: 40px;
+    color: #555;
+    text-decoration: none;
+    background: no-repeat 17px 50%;
+    height: 30px;
+    line-height: 30px;
+}
+.frame-menu .accordion .sublist li a:hover {
+    color: #f47a11;
+    text-decoration: none;
+}
+.frame-menu .accordion .sublist li.cur {
+    border: 1px solid #00b845;
+    background: #00b845;
+}
+.frame-menu .accordion .sublist li.cur a {
+    color: #fff;
+}
+.frame-menu .accordion .sublist li.cur a:hover {
+    color: #fff;
+}
+.frame-menu .menu-btn {
+    margin-top: -1px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e8e8e8;
+}
+.frame-menu .menu-btn a {
+    display: block;
+    padding: 5px;
+    border: 1px solid #e0e4ed;
+    background: #fff;
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #7181a4;
+    text-decoration: none;
+}
+.frame-menu .menu-btn a:hover {
+    color: #00b845;
+    border-color: #00b845;
+}
+.frame-menu .menu-btn a:hover .icon {
+    background-position: left bottom;
+}
+.frame-menu .menu-btn .icon {
+    margin-right: 6px;
+}
+.frame-menu .icon {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 14px;
+    height: 14px;
+    background: no-repeat left top;
+    vertical-align: middle;
+}
+.frame-menu .icon-msg {
+    background-image: url(../../../images/personal/frame-main-icon-msg.gif);
+}
+/*- frame-container -*/
+.frame-container{
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+}
+.frame-main-sub .frame-container{
+    padding: 25px 10px;
+    width:980px;
+}
+
+/*- frame-title -*/
+.frame-title{
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    border-left: #1faa50 solid 4px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+/*myhn_page*/
+.myhn_page { width:980px;
+    height: 37px;
+    clear: both;
+    overflow: hidden;
+    text-align: right;
+    margin:0px auto;
+    padding:30px 0px;
+}
+.myhn_page .page-bottom {
+    display:inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    *display:inline;
+}
+.myhn_page .page-bottom a {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    margin:0px 6px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 14px;
+    border:1px #dddddd solid;
+    border-radius: 2px 2px;
+    text-indent:0px;
+}
+.myhn_page .page-bottom span {
+    height: 35px;
+    float: left;
+    line-height:35px;
+    padding:0px 15px;
+    text-indent:0px;
+    border:1px #dddddd solid;
+}
+.myhn_page a:hover {
+    background:#f47a11;
+    color:#FFF;
+    text-decoration:none;
+}
+.myhn_page .page-op {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+    *display:inline;
+}
+.myhn_page .page-op span{
+    float: left;
+    line-height: 35px;
+}
+.myhn_page .page_but1hover {
+    background:#f47a11;
+    color:#FFF;
+    text-decoration:none;
+}
+.myhn_page .page_but2 {
+    width:40px;
+    height:28px;
+    display:inline-block;
+    line-height:28px;
+    text-align:center;
+    padding:0 3px;
+    border-radius: 2px;
+    text-indent:0px;
+    border:#dddddd solid 1px;
+    margin-top: 2px;
+    outline: none;
+    margin-left: 6px;
+}
+.myhn_page .page_but2:hover {
+    background:#f47a11;
+    color:#fff;
+}
+.myhn_page .page_input {
+    float: left;
+    width:40px;
+    height:28px;
+    display:inline-block;
+    border:1px #dddddd solid;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px;
+    margin-top: 2px;
+    outline: none;
+}

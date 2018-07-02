@@ -1,0 +1,205 @@
+.hnPopup{
+
+}
+/*提示框*/
+.hnPopup .mask{
+    position:fixed;
+    background-color: #000;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    _position: absolute;
+    _height: expression(eval(documentElement.clientHeight));
+    _top:expression(eval(document.documentElement.scrollTop));
+    z-index: 9999;
+}
+.hnPopup .hnpopup-tip{
+    position:fixed;
+    width:400px;
+    height:200px;
+    overflow:hidden;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-200px;
+    _position: absolute;
+    _top:expression(eval(documentElement.scrollTop + (documentElement.clientHeight-this.offsetHeight)/2));
+    _margin-top:0;
+    z-index:10000;
+    background-color: #fff;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-title{
+    height: 48px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-title h2{
+    float: left;
+    line-height: 48px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-title span{
+    float: right;
+    width: 50px;
+    height: 48px;
+    background: url("../../images/supply/close.gif") center no-repeat;
+    cursor: pointer;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-content{
+    background: url("../../images/supply/popup-tip-ico.jpg") 55px 30px no-repeat;
+    min-height: 65px;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-content p{
+    line-height: 24px;
+    padding: 35px 30px 0 105px;
+    font-size: 18px;
+    color: #666;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-content span{
+    line-height: 24px;
+    display: block;
+    padding: 0 30px 0 105px;
+    font-size: 14px;
+    color: #666;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-btn{
+    padding-top: 48px;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-btn a{
+    float: left;
+    display: inline;
+    width: 131px;
+    height: 34px;
+    overflow: hidden;
+    background-color: #f47a11;
+    border: #f47a11 solid 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.hnPopup .hnpopup-tip .hnpopup-tip-btn a:hover{
+    background-color: #ff4200;
+    border: #ff4200 solid 1px;
+}
+
+.hnPopup .hnpopup-info{
+    position:fixed;
+    width:298px;
+    height:92px;
+    overflow:hidden;
+    top:50%;
+    left:50%;
+    margin-top:-47px;
+    margin-left:-150px;
+    _position: absolute;
+    _top:expression(eval(documentElement.scrollTop + (documentElement.clientHeight-this.offsetHeight)/2));
+    _margin-top:0;
+    z-index:10000;
+    background: #fff url("../../images/supply/popup-info-ico.jpg") 55px 30px no-repeat;
+    border: #f2f2f2 solid 1px;
+    display: none;
+}
+.hnPopup .hnpopup-info .hnpopup-info-content p{
+    line-height: 34px;
+    padding: 30px 0 0 105px;
+    font-size: 18px;
+    color: #666;
+}
+.hnPopup .hnpopup-form{
+    position:fixed;
+    width:400px;
+    height:200px;
+    overflow:hidden;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-200px;
+    _position: absolute;
+    _top:expression(eval(documentElement.scrollTop + (documentElement.clientHeight-this.offsetHeight)/2));
+    _margin-top:0;
+    z-index:10000;
+    background-color: #fff;
+}
+.hnPopup .hnpopup-form .hnpopup-form-title{
+    height: 48px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+.hnPopup .hnpopup-form .hnpopup-form-title h2{
+    float: left;
+    line-height: 48px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+}
+.hnPopup .hnpopup-form .hnpopup-form-title span{
+    float: right;
+    width: 50px;
+    height: 48px;
+    background: url("../../images/supply/close.gif") center no-repeat;
+    cursor: pointer;
+}
+.hnPopup .hnpopup-form .hnpopup-form-tip{
+    height: 37px;
+    overflow: hidden;
+    background-color: #fff8e1;
+    line-height: 37px;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}.hnPopup .hnpopup-form .hnpopup-form-content{
+    padding: 30px 15px;
+ }
+.hnPopup .hnpopup-form .hnpopup-form-btn{
+    padding-top: 0px;
+}
+.hnPopup .hnpopup-form .hnpopup-form-btn a{
+    float: left;
+    display: inline;
+    width: 131px;
+    height: 34px;
+    overflow: hidden;
+    background-color: #f47a11;
+    border: #f47a11 solid 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.hnPopup .hnpopup-form .hnpopup-form-btn a:hover{
+    background-color: #ff4200;
+    border: #ff4200 solid 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

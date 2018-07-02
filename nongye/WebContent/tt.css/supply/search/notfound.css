@@ -1,0 +1,153 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+i,
+b {
+	padding: 0;
+	margin: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+	font: 12px/1.5 tahoma, arial, \5b8b\4f53;
+	color: #3e3e3e;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+q:before,
+q:after {
+	content: '';
+}
+
+textarea {
+	resize: none;
+}
+
+input,
+textarea,
+a,
+button {
+	outline: none;
+}
+
+.clear:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+}
+
+.clear {
+	zoom: 1;
+}
+
+a {
+	blr: expression(this.onFocus=this.blur())
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #3e3e3e;
+}
+
+a:visited {
+	color: #3e3e3e;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.no_infomation {
+	margin: 20px auto;
+	width: 520px;
+	height: 170px;
+	padding: 10px;
+	background: url(../../../images/supply/sorry.jpg) left center no-repeat;
+}
+
+.no_infomation h3 {
+	font-size: 18px;
+	padding-top: 30px;
+	font-weight: normal;
+	padding-left: 190px;
+	color: #333;
+}
+
+.no_infomation h5 {
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: bold;
+	padding-left: 190px;
+	color: #333;
+}
+
+.no_infomation p {
+	font-size: 12px;
+	color: #666666;
+	padding-left: 190px;
+	line-height: 35px;
+}
+
+.no_infomation p span {
+	padding-left: 25px;
+	margin-left: 20px;
+	background: url(../../../images/supply/telphone.jpg) left center no-repeat;
+	font-size: 14px;
+}
+
+.no_infomation p a {
+	display: inline-block;
+	width: 95px;
+	background: #ff500b;
+	text-align: center;
+	color: #fff;
+	margin-left: 5px;
+	border-radius: 4px;
+	font-size: 14px;
+	text-decoration: none;
+}

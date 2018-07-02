@@ -1,0 +1,875 @@
+@charset "utf-8";
+
+/*--------------------------------------------------
+ 
+--------------------------------------------------*/
+
+
+/*-text 文本属性，挂载在需要该属性的元素类名上即可-*/
+
+.fs_12 {
+	font-size: 12px;
+}
+
+.fs_13 {
+	font-size: 13px;
+}
+
+.fs_14 {
+	font-size: 14px;
+}
+
+.fs_15 {
+	font-size: 15px;
+}
+
+.fs_16 {
+	font-size: 16px;
+}
+
+.fs_18 {
+	font-size: 18px;
+}
+
+.fs_20 {
+	font-size: 20px;
+}
+
+.fw_b {
+	font-weight: bold;
+}
+
+.fw_n {
+	font-weight: normal;
+}
+
+.ti_2 {
+	text-indent: 2em;
+}
+
+.lh_18 {
+	line-height: 18px;
+}
+
+.lh_20 {
+	line-height: 20px;
+}
+
+.lh_22 {
+	line-height: 22px;
+}
+
+.lh_24 {
+	line-height: 24px;
+}
+
+.lh_150 {
+	line-height: 150%;
+}
+
+.lh_180 {
+	line-height: 180%;
+}
+
+.lh_200 {
+	line-height: 200%;
+}
+
+.td_ul {
+	text-decoration: underline;
+}
+
+.td_no {
+	text-decoration: none;
+}
+
+
+/*-layout 布局属性，挂载在需要该属性的元素类名上即可-*/
+
+.fl {
+	float: left;
+	display: inline;
+}
+
+.fr {
+	float: right;
+	display: inline;
+}
+
+.tl {
+	text-align: left;
+}
+
+.tc {
+	text-align: center;
+}
+
+.tr {
+	text-align: right;
+}
+
+.bc {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.cl {
+	clear: left;
+}
+
+.cr {
+	clear: right;
+}
+
+.cb {
+	clear: both;
+}
+
+.pr {
+	position: relative;
+}
+
+.pa {
+	position: absolute;
+}
+
+.vam {
+	vertical-align: middle;
+}
+
+.hidden {
+	display: none;
+}
+
+.zoom {
+	zoom: 1;
+}
+
+
+/*-clearfix 对于复杂布局下的ie6/ie7存在未知bug，情使用clear代替。-*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ".";
+	clear: both;
+	height: 0;
+}
+
+*html .clearfix {
+	zoom: 1;
+}
+
+
+/* IE6 */
+
+*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+
+/* IE7 */
+
+
+/*.clear {
+	height:0;
+	clear:both;
+	font-size:0;
+	overflow:hidden;
+	visibility:hidden;
+}*/
+
+.clear {
+	zoom: 1;
+}
+
+.clear:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+}
+
+
+/*-size 尺寸大小，挂载在需要该属性的元素类名上即可-*/
+
+.w_10 {
+	width: 10px;
+}
+
+.w_20 {
+	width: 20px;
+}
+
+.w_30 {
+	width: 30px;
+}
+
+.w_40 {
+	width: 40px;
+}
+
+.w_50 {
+	width: 50px;
+}
+
+.w_60 {
+	width: 60px;
+}
+
+.w_70 {
+	width: 70px;
+}
+
+.w_80 {
+	width: 80px;
+}
+
+.w_90 {
+	width: 90px;
+}
+
+.w_100 {
+	width: 100px;
+}
+
+.w_200 {
+	width: 200px;
+}
+
+.w_300 {
+	width: 300px;
+}
+
+.w_400 {
+	width: 400px;
+}
+
+.w_500 {
+	width: 500px;
+}
+
+.w_600 {
+	width: 600px;
+}
+
+.w_700 {
+	width: 700px;
+}
+
+.w_800 {
+	width: 800px;
+}
+
+.w_900 {
+	width: 900px;
+}
+
+.w_full {
+	width: 100%
+}
+
+.h_50 {
+	height: 50px;
+}
+
+.h_80 {
+	height: 80px;
+}
+
+.h_100 {
+	height: 100px;
+}
+
+.h_200 {
+	height: 200px;
+}
+
+.h_full {
+	height: 100%
+}
+
+
+/*-special size 特殊尺寸大小-*/
+
+.w_210 {
+	width: 210px;
+}
+
+.w_220 {
+	width: 220px;
+}
+
+.w_230 {
+	width: 230px;
+}
+
+.w_240 {
+	width: 240px;
+}
+
+.w_250 {
+	width: 250px;
+}
+
+.w_340 {
+	width: 340px;
+}
+
+.w_350 {
+	width: 350px;
+}
+
+.w_360 {
+	width: 360px;
+}
+
+
+/*-空白间隔属性-*/
+
+
+/*-blank 空白元素类，创建指定高度的水平空白区域。需要加入额外标签，e.g. <div class="blank_10"></div> -*/
+
+.blank_3,
+.blank_5,
+.blank_6,
+.blank_10,
+.blank_15,
+.blank_20 {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+.blank_3 {
+	height: 3px;
+}
+
+.blank_5 {
+	height: 5px;
+}
+
+.blank_6 {
+	height: 6px;
+}
+
+.blank_10 {
+	height: 10px;
+}
+
+.blank_15 {
+	height: 15px;
+}
+
+.blank_20 {
+	height: 20px;
+}
+
+
+/*-margin 外边距间隔，挂载在需要该属性的元素类名上即可-*/
+
+.m_5 {
+	margin: 5px;
+}
+
+.m_10 {
+	margin: 10px;
+}
+
+.m_15 {
+	margin: 15px;
+}
+
+.m_20 {
+	margin: 20px;
+}
+
+.m_30 {
+	margin: 30px;
+}
+
+.mt_5 {
+	margin-top: 5px;
+}
+
+.mt_10 {
+	margin-top: 10px;
+}
+
+.mt_15 {
+	margin-top: 15px;
+}
+
+.mt_20 {
+	margin-top: 20px;
+}
+
+.mt_30 {
+	margin-top: 30px;
+}
+
+.mt_40 {
+	margin-top: 50px;
+}
+
+.mt_50 {
+	margin-top: 50px;
+}
+
+.mt_100 {
+	margin-top: 100px;
+}
+
+.mb_5 {
+	margin-bottom: 5px;
+}
+
+.mb_10 {
+	margin-bottom: 10px;
+}
+
+.mb_15 {
+	margin-bottom: 15px;
+}
+
+.mb_20 {
+	margin-bottom: 20px;
+}
+
+.mb_30 {
+	margin-bottom: 30px;
+}
+
+.mb_50 {
+	margin-bottom: 50px;
+}
+
+.mb_100 {
+	margin-bottom: 100px;
+}
+
+.ml_5 {
+	margin-left: 5px;
+}
+
+.ml_10 {
+	margin-left: 10px;
+}
+
+.ml_15 {
+	margin-left: 15px;
+}
+
+.ml_20 {
+	margin-left: 20px;
+}
+
+.ml_30 {
+	margin-left: 30px;
+}
+
+.ml_50 {
+	margin-left: 50px;
+}
+
+.ml_100 {
+	margin-left: 100px;
+}
+
+.mr_5 {
+	margin-right: 5px;
+}
+
+.mr_10 {
+	margin-right: 10px;
+}
+
+.mr_15 {
+	margin-right: 15px;
+}
+
+.mr_20 {
+	margin-right: 20px;
+}
+
+.mr_30 {
+	margin-right: 30px;
+}
+
+.mr_50 {
+	margin-right: 50px;
+}
+
+.mr_100 {
+	margin-right: 100px;
+}
+
+.mtb_5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.mtb_10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mtb_15 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.mtb_20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mlr_5 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.mlr_10 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.mlr_15 {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.mlr_20 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*-padding 内边距间隔，挂载在需要该属性的元素类名上即可-*/
+
+.p_5 {
+	padding: 5px;
+}
+
+.p_10 {
+	padding: 10px;
+}
+
+.p_15 {
+	padding: 15px;
+}
+
+.p_20 {
+	padding: 20px;
+}
+
+.p_30 {
+	padding: 30px;
+}
+
+.pt_5 {
+	padding-top: 5px;
+}
+
+.pt_10 {
+	padding-top: 10px;
+}
+
+.pt_15 {
+	padding-top: 15px;
+}
+
+.pt_20 {
+	padding-top: 20px;
+}
+
+.pt_30 {
+	padding-top: 30px;
+}
+
+.pt_50 {
+	padding-top: 50px;
+}
+
+.pt_100 {
+	padding-top: 100px;
+}
+
+.pb_5 {
+	padding-bottom: 5px;
+}
+
+.pb_10 {
+	padding-bottom: 10px;
+}
+
+.pb_15 {
+	padding-bottom: 15px;
+}
+
+.pb_20 {
+	padding-bottom: 20px;
+}
+
+.pb_30 {
+	padding-bottom: 30px;
+}
+
+.pb_50 {
+	padding-bottom: 50px;
+}
+
+.pb_100 {
+	padding-bottom: 100px;
+}
+
+.pl_5 {
+	padding-left: 5px;
+}
+
+.pl_10 {
+	padding-left: 10px;
+}
+
+.pl_15 {
+	padding-left: 15px;
+}
+
+.pl_20 {
+	padding-left: 20px;
+}
+
+.pl_30 {
+	padding-left: 30px;
+}
+
+.pl_50 {
+	padding-left: 50px;
+}
+
+.pl_100 {
+	padding-left: 100px;
+}
+
+.pr_5 {
+	padding-right: 5px;
+}
+
+.pr_10 {
+	padding-right: 10px;
+}
+
+.pr_15 {
+	padding-right: 15px;
+}
+
+.pr_20 {
+	padding-right: 20px;
+}
+
+.pr_30 {
+	padding-right: 30px;
+}
+
+.pr_50 {
+	padding-right: 50px;
+}
+
+.pr_100 {
+	padding-right: 100px;
+}
+
+.ptb_5 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ptb_10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ptb_15 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.ptb_20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.plr_5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.plr_10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.plr_15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.plr_20 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*-Grids 布局网格-*/
+
+
+/*1000 Grids 1000px页面宽度，grid-XXXX挂载在content、sidebar父元素上，默认为section。*/
+
+.grid-5049 .content {
+	width: 500px;
+}
+
+.grid-5049 .sidebar {
+	width: 490px;
+}
+
+.grid-6930 .content {
+	width: 690px;
+}
+
+.grid-6930 .sidebar {
+	width: 300px;
+}
+
+.grid-7029 .content {
+	width: 700px;
+}
+
+.grid-7029 .sidebar {
+	width: 290px;
+}
+
+.grid-7128 .content {
+	width: 710px;
+}
+
+.grid-7128 .sidebar {
+	width: 280px;
+}
+
+.grid-7227 .content {
+	width: 720px;
+}
+
+.grid-7227 .sidebar {
+	width: 270px;
+}
+
+.grid-7326 .content {
+	width: 730px;
+}
+
+.grid-7326 .sidebar {
+	width: 260px;
+}
+
+.grid-7425 .content {
+	width: 740px;
+}
+
+.grid-7425 .sidebar {
+	width: 250px;
+}
+
+.grid-7722 .content {
+	width: 770px;
+}
+
+.grid-7722 .sidebar {
+	width: 220px;
+}
+
+.grid-7920 .content {
+	width: 790px;
+}
+
+.grid-7920 .sidebar {
+	width: 200px;
+}
+
+.grid-8019 .content {
+	width: 800px;
+}
+
+.grid-8019 .sidebar {
+	width: 190px;
+}
+
+.grid-8118 .content {
+	width: 810px;
+}
+
+.grid-8118 .sidebar {
+	width: 180px;
+}
+
+
+/*960 Grids*/
+
+.grid-7718 .content {
+	width: 770px;
+}
+
+.grid-7718 .sidebar {
+	width: 180px;
+}
+
+.grid-7520 .content {
+	width: 750px;
+}
+
+.grid-7520 .sidebar {
+	width: 200px;
+}
+
+.grid-7322 .content {
+	width: 730px;
+}
+
+.grid-7322 .sidebar {
+	width: 220px;
+}
+
+.grid-7025 .content {
+	width: 700px;
+}
+
+.grid-7025 .sidebar {
+	width: 250px;
+}
+
+.grid-6728 .content {
+	width: 670px;
+}
+
+.grid-6728 .sidebar {
+	width: 280px;
+}
+
+.grid-6530 .content {
+	width: 650px;
+}
+
+.grid-6530 .sidebar {
+	width: 300px;
+}
+
+.grid-4946 .content {
+	width: 490px;
+}
+
+.grid-4946 .sidebar {
+	width: 460px;
+}

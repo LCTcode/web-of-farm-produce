@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*--------------------------------------------------
+ *@名称:		reset.css
+ *@作者:		Huangpu
+ *@版本:		1.0
+ *@描述:		reset browser default style
+ *			此文件非经许可，请勿修改
+--------------------------------------------------*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+img,
+table,
+th,
+td,
+pre,
+code,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th {
+	text-align: left;
+	font-weight: normal;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+	text-decoration: underline;
+	outline: 0;
+}
+
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: inherit;
+	*font-size: 100%;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+legend {
+	color: #000;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}

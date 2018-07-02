@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+input[type="text"], input.text, input[type="password"], input.password {
+    padding: 0 5px;
+}
+.content{
+    width:980px; float:right;
+}
+/*鏍囬鏉�*/
+.titlebar{
+    overflow:hidden;
+    border-left:#1faa50 solid 4px;
+}
+.titlebar .titlebar-name{
+    float:left;
+    display:inline;
+    height:20px;
+    line-height:20px;
+    padding-left:10px;
+    font-size:16px;
+}
+
+/*- reg-infp -*/
+.fieldline{ width:880px; height:56px;
+    font-size: 14px;}
+.tab-main{ margin:50px;}
+.tab-main select {margin-right: 5px; padding:7px 3px; vertical-align: middle;}
+.tab-main .c1, .tab-main .c2{ display: inline; float: left; line-height: 18px; padding-bottom: 18px;}
+.tab-main .c1 { margin-right: 12px; padding-top: 10px; text-align: right; width: 138px;}
+.tab-main .c1 em{
+    color: #ff0000;}
+.tab-main .c2 { width: 350px;}
+.tab-main .c2 input.txt { border: 1px solid #dcdcdc; height: 20px; line-height: 20px; padding:8px 5px; width: 230px;}
+.tab-main .checkbox{height: auto;}
+.tab-main .checkbox .c1{
+    padding-top: 0;
+}
+.tab-main .checkbox .c2{
+    width: 570px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.tab-main .checkbox span{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: block;
+    float: left;
+}
+.tab-main .checkbox .checkbox-hint{
+    background: url(../../../images/reg/hint-bg.png) no-repeat;
+    width: 168px;
+    height: 26px;
+    float: left;
+    line-height: 25px;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #f47a11;
+    position: absolute;
+    right: -168px;
+}
+.tab-main .gang { font-family: "瀹嬩綋"; margin-left: 4px;}
+.tab-main .c2 input.pguodai, .tab-main .c2 input.cguodai { width: 30px;}
+.tab-main .c2 input.pquhao, .tab-main .c2 input.cquhao { width: 54px;}
+.tab-main .c2 input.pphone, .tab-main .c2 input.cphone { width: 108px;}
+.tab-main .submit{ cursor:pointer; color:#fff; text-align:center; background-color:#f47a11; border-radius:3px; padding:8px 45px; border:none;}
+.tab-main .submit:hover{background-color:#ff4200; text-decoration:none;	}
+
+.inpt { border: 1px solid #e7e7e7; height: 30px; line-height: 30px; width: 310px; margin-right: 5px; padding-left: 5px; vertical-align: middle;border-radius: 3px;}
+.btn_org{margin-right: 5px; vertical-align: middle;  background: none repeat scroll 0 0 #f47a11; border:none; border-radius: 3px; color: #fff; padding: 8px 45px; text-decoration: none; cursor:pointer;}
+.btn_org:hover{ background-color:#ff4200; text-decoration:none;}
+
+/*-  error -*/
+.reg-hint {
+    float: left;
+    width: 330px;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+.reg-hint i {
+    margin: 11px 6px 0 0;
+}
+.reg-ico-2 {
+    background: url(../images/common/error.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+.reg-ico-1 {
+    background: url(../images/common/correct.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+.category-sub-tabs {
+    margin-top: 15px;
+}

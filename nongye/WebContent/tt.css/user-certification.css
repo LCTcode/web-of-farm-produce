@@ -1,0 +1,330 @@
+.nav{ margin-bottom:15px;}
+.main{}
+.content{ width:978px; float:left; border:1px solid #e5e5e5;}
+.content .star { color: #f00; line-height:30px; margin-left: 6px; font-family: "氓庐鈥姑ぢ解€�";font-style: normal;}
+.red {color:#f00;}
+.lh_24 { line-height:24px; }
+.user-con{ margin: 0 30px 25px; padding-left: 100px !important;}
+.btn_org:hover{ background-color:#ff4200; text-decoration:none;}
+.user-iteam{ width:880px; margin:20px 50px; height:30px;}
+.user-txt{float:left; height:20px; line-height:20px; width: 260px; text-indent:10px;border: 1px solid #ddd;}
+.bottom-line{  border-bottom:1px dashed #e5e5e5; height:50px; line-height:50px; color:#f00;}
+.user-label{ display: inline; float: left; height: 30px; line-height: 30px; margin-left: -240px; text-align: right; width: 240px; font-size:14px;}
+.btn-1{width:158px; height:35px; line-height:35px; font-size:14px; display:block; float:left; margin-left:10px; background-color:#e6e6e6; text-align:center; cursor:pointer;}
+.btn-1:hover{ background-color:#cac9c9; text-decoration:none;}
+div.h_35{ height:35px;}
+div.h_100{ height:100px;}
+div.mt_40{ margin-top:40px;}
+
+/*- add by lilu 2015-11-10 -*/
+.clear {
+    clear:both;height:0;
+    overflow:hidden;
+}
+.red {color:#f00;}
+.lh_24 { line-height:24px; }
+.main-tips {
+    width:auto;
+    height:auto;
+    border-bottom:1px dashed #ddd;
+    margin: 0 30px;
+    padding: 15px 0;
+}
+.main-tips {
+    width:auto;
+    height:auto;
+    border-bottom:1px dashed #ddd;
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
+.main-tips h3{
+    line-height:60px;
+    height:60px;
+    font-size: 16px;
+}
+.main-tips ul{
+    float: left;
+    width:469px;
+    display: inline;
+}
+.main-tips ul li{
+    height:24px;
+    line-height:24px;
+    overflow: hidden;
+    color: #666;
+}
+.label-left {
+    font-size: 16px;margin-left: -180px;
+}
+.label-exam {
+    margin-left: 70px;
+    float:left;
+    color:#ff3f13;
+}
+.user-cert-img {
+    width: 182px;
+    height: 65px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 8px 0 22px;
+    background: #fff url(../images/comp-cert-img.gif) no-repeat right bottom;
+}
+.user-cert-img img {
+    width: 180px;
+    margin: -10px auto 0 auto;
+}
+.user-cert-img-tips {
+    float:left;color: #9E9E9E;width: 290px; margin-left: 40px;
+}
+.mode-font {
+    font-size:14px;color:#666;
+}
+.mode-btn {
+    text-align:left;font-weight:400;color:#ff3f13;
+}
+.imageUploader-queue {
+    min-height: 10px;
+    _height: 10px;
+}
+/*-2015-1-20-*/
+.mode-tc {
+    color:#f00;
+    padding:20px;
+}
+.mode-tc .img {
+    padding:15px 0;
+}
+.mode-tc .bottom {
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+}
+
+.col{
+    padding-left: 20px;
+}
+.col h2{
+    height:70px;
+    line-height:70px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.col h3{
+    float: left;
+    width:95px;
+    overflow: hidden;
+    height:30px;
+    line-height:30px;
+    color: #666;
+    text-align: right;
+}
+.col .text{
+
+}
+.sample li{
+    float: left;
+    width:220px;
+    margin-right: 20px;
+    display: inline;
+}
+.sample li img{
+    cursor: pointer;
+}
+.sample li p{
+    line-height:24px;
+    padding-top: 7px;
+    color: #666;
+}
+.upload{
+    position: relative;
+    float: left;
+    margin-right: 19px;
+    display: inline;
+}
+/*.upload a.ks-uploader-button  {
+    height: 35px !important;
+    float: left;
+    background: url(../../../images/personal/certification/choose.jpg) no-repeat;
+    border: 0;
+    font: 14px "\5FAE\8F6F\96C5\9ED1";
+    line-height: 35px;
+    color: #fff;
+    text-align: left;
+    text-indent: 95px;
+    width: 221px;
+}*/
+.upload a.ks-uploader-button  .file-input-wrapper ,
+.upload a.ks-uploader-button  .file-input-wrapper input.file-input {
+    width: 158px !important;
+    height: 35px !important;
+}
+.upload .pic-gird {
+    margin-top: 65px;
+}
+.upload .pic-gird li{
+    width:221px;
+    height:221px;
+    position: relative;
+    float: left;
+}
+.upload .pic-gird li .pic{
+    padding: 5px;
+    width:210px;
+    height:210px;
+}
+.upload .pic-gird li .pic img{
+    max-width:210px;
+    max-height:210px;
+}
+.upload .imageUploader_menu{
+    position: absolute;
+    width:210px;
+    height:33px;
+    background-color: #000;
+    bottom:5px;
+    left:5px;
+    filter:alpha(opacity=50); /*鏀寔 IE 娴忚鍣�*/
+    -moz-opacity:0.50; /*鏀寔 FireFox 娴忚鍣�*/
+    opacity:0.50; /*鏀寔 Chrome, Opera, Safari 绛夋祻瑙堝櫒*/
+}
+.upload .imageUploader_menu .imageUploader_but1{
+    display: none;
+}
+.upload .imageUploader_menu .imageUploader_but2{
+    display: none;
+}
+.upload .imageUploader_menu .imageUploader_del{
+    width: 100px;
+    height: 16px;
+    float: left;
+    background: url(../../../images/personal/certification/del.png) no-repeat;
+    text-decoration: none;
+    margin: 9px 0 0 80px;
+
+}
+.upload .imageUploader_menu .imageUploader_del:after{
+    content: '鍒犻櫎';
+    color: #fff;
+    margin-left: 20px;
+    line-height:16px;
+}
+.btn-2{
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    border: 0;
+    background-color: #f47a11;
+    text-align: center;
+    color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 25px;
+}
+.btn-2:hover{
+    background-color:#ff4200;
+    text-decoration:none;
+}
+.invalid{
+    background-color: #f9bc88;
+}
+.invalid:hover{
+    background-color: #f9bc88;
+}
+
+
+
+.upload .sy{
+    position: absolute;
+    top:105px;
+    left:30px;
+ }
+
+.popup{}
+.popup .mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-width: 1190px;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    _position: absolute;
+    _height: expression(document.body.scrollHeight);
+}
+.popup .box{
+    position: fixed;
+    z-index: 1002;
+    left: 50%;
+    top: 50%;
+    _position: absolute;
+    _margin-top: 0px;
+}
+.popup-0 .box{
+    width: 687px;
+    height: 310px;
+    margin-left: -343px;
+    margin-top: -155px;
+    background: url("../../../images/personal/certification/img1.png") no-repeat;
+    _top:expression(documentElement.scrollTop + (documentElement.clientHeight-310)/2);
+    _background: url("../../../images/personal/certification/img1.gif") no-repeat;
+}
+.popup-1 .box{
+    width: 710px;
+    height: 307px;
+    margin-left: -355px;
+    margin-top: -153px;
+    background: url("../../../images/personal/certification/img2.png") no-repeat;
+    _top:expression(documentElement.scrollTop + (documentElement.clientHeight-307)/2);
+    _background: url("../../../images/personal/certification/img2.gif") no-repeat;
+}
+.popup-2 .box{
+    width: 731px;
+    height: 1024px;
+    margin-left: -365px;
+    margin-top: 0;
+    position: absolute;
+    top:40px;
+    background: url("../../../images/personal/certification/img3.png") no-repeat;
+    /*_top:expression(documentElement.scrollTop + (documentElement.clientHeight-1024)/2);*/
+    _background: url("../../../images/personal/certification/img3.gif") no-repeat;
+}
+.popup .box .close{
+    width:24px;
+    height:24px;
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+    background: url("../../../images/personal/certification/close.png") no-repeat;
+    _background: url("../../../images/personal/certification/close.gif") no-repeat;
+    cursor: pointer;
+}
+
+.result {
+    line-height: 30px;
+    font-size: 14px;
+}
+.user-iteam {
+    margin-left: 50px;
+}
+.user-iteam {
+    width: 880px;
+    margin: 20px 50px;
+    height: 30px;
+}
+.user-label {
+    display: inline;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -240px;
+    text-align: right;
+    width: 240px;
+    font-size: 14px;
+    color: #666;
+}

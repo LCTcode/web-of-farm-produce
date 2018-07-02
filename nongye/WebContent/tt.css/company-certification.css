@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+body{}
+body, button, input, select, textarea{ color:000; font:12px/1.5 tahoma,arial,寰蒋闆呴粦}
+
+.nav{ margin-bottom:15px;}
+.main{}
+.content{ width:978px; float:left; border:1px solid #e5e5e5;}
+.content .star { color: #f00; line-height:30px; margin-left: 0px; font-family: "瀹嬩綋";font-style: normal;}
+.red {color:#f00;}
+.lh_24 { line-height:24px; }
+.user-con{ margin: 0 30px 25px; padding-left: 100px;}
+.user-con select { float: left; height: 35px; line-height: 35px;}
+.user-con .w_190{ width:190px;}
+.btn_org:hover{ background-color:#ff4200; text-decoration:none;}
+.user-iteam{ width:880px; margin: 20px 50px; height:30px;}
+.user-txt{float:left; height:30px; line-height:30px; width: 260px; text-indent:10px;border: 1px solid #ddd;}
+.bottom-line{  border-bottom:1px dashed #e5e5e5; height:50px; line-height:50px; color:#f00;}
+.user-label{ display: inline; float: left; height: 30px; line-height: 30px; margin-left: -240px; text-align: right; width: 240px; font-size:14px;}
+.btn-0{width:158px; height:35px; float:left; background:url(img/qiyerenzheng/choose.png) no-repeat; border: 0;}
+.btn-0:hover{ background:url(img/qiyerenzheng/choose1.png) no-repeat;}
+.btn-1{width:158px; height:35px; line-height:35px; font-size:14px; display:block; float:left; margin-left:10px; background-color:#e6e6e6; text-align:center; cursor:pointer;}
+.btn-1:hover{ background-color:#cac9c9; text-decoration:none;}
+.btn-2{
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    border: 0;
+    background-color: #f47211;
+    text-align: center;
+    color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 25px;
+}
+.invalid{
+    background-color: #f9bc88;
+}
+.invalid:hover{
+    background-color: #f9bc88;
+}
+
+div.h_35{ height:35px;}
+div.h_100{ height:100px;}
+div.mt_40{ margin-top:40px;}
+.user-iteam .cbox{ display:block; float:left; margin-top:9px;}
+.user-iteam em { padding-left: 6px; padding-right: 18px; float:left; line-height:30px;}
+
+.user-iteam { margin-left:50px; }
+/*.user-iteam a.ks-uploader-button  {
+    width: 158px;
+    height: 35px !important;
+    float: left;
+    background:url(img/qiyerenzheng/choose158.png) no-repeat;
+    border: 0;
+    font: 14px "\5FAE\8F6F\96C5\9ED1" bold;
+    line-height: 35px;
+    color: #fff;
+}
+.user-iteam a.ks-uploader-button  .file-input-wrapper ,
+.user-iteam a.ks-uploader-button  .file-input-wrapper input.file-input {
+    width: 158px !important;
+    height: 35px !important;
+}
+
+/*- add by lilu 2015-11-10 -*/
+.clear {
+    clear:both;height:0;
+    overflow:hidden;
+}
+.red {color:#f00;}
+.lh_24 { line-height:24px; }
+.h_80 {height:80px;}
+.fl { float:left; display:inline-block; }
+.mr_30 { margin-right:30px;}
+.main-tips {
+    width:auto;
+    height:auto;
+    border-bottom:1px solid #ddd;
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
+.main-tips h3{
+    line-height:60px;
+    height:60px;
+    font-size: 16px;
+}
+.main-tips ul{
+    float: left;
+    width:469px;
+    display: inline;
+}
+.main-tips ul li{
+    height:24px;
+    line-height:24px;
+    overflow: hidden;
+    color: #666;
+}
+.label-left {
+    font-size: 15px;
+    margin-left: -90px;
+    width:auto;
+}
+.label-left label {
+    float: left;
+    margin-right: 90px;
+}
+.label-exam {
+    float:left;color:#ff3f13;
+}
+.comp-cert-img {
+    width: 110px;
+    height: 68px;
+    padding: 8px 0 22px;
+    overflow:hidden;
+    border:1px solid #ddd;
+    background: #fff url(img/qiyerenzheng/comp-cert-img.gif) no-repeat right bottom;
+}*/
+.comp-cert-img img {
+}
+.comp-cert-img-tips {
+    float:left;color: #9E9E9E;width: 290px; margin-left: 10px;
+}
+.comp-cert-img-tips .star {
+    margin-left: 0; padding-left: 0;
+}
+.pic-gird {
+    padding-left:50px;
+}
+.pic-gird-1 {
+    padding-left:50px;margin-top: 20px;
+}
+.btn-width-a{
+    width: 112px;
+}
+.user-h2-name {
+    font-size: 16px;
+    margin-left: -120px;
+    display: none;
+}
+/*- 2015-1-20 -*/
+.mode-tc {
+    color:#f00;
+    padding:20px;
+}
+.mode-tc .img {
+    padding:15px 0;
+}
+.mode-tc .bottom {
+    font-weight:bold;
+    text-align:center;
+    font-size:14px;
+}
+
+.tip{
+    margin: 20px 0 0 50px;
+}
+.btn{
+    margin-top: 0;
+}
+.result{
+    line-height:30px;
+    font-size: 14px;
+}

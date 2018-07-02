@@ -1,0 +1,85 @@
+/*- header -*/
+
+.header {
+    width: 1190px;
+    margin: 0 auto;
+    height: 41px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 31px 0px 27px;
+}
+.header .links span {
+    border-right: 1px solid #999;
+    float: left;
+    padding-right: 28px;
+    margin-right: 28px;
+}
+.header .links span:last-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*- // header -*/
+.m-trial {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.m-trial h3 {
+    margin-top: 8%;
+    margin-bottom: 4%;
+    font-size: 18px;
+    color: #333;
+}
+.m-trial .cnt {
+    padding-top: 34.5%;
+}
+.fx-w h2{
+    height: 45px !important;
+}
+.fx-w h2 a{
+    margin-right: 10px !important;
+}
+.fx-w h2 strong{
+    width: 90%;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px !important;
+}
+
+.ncpt_widget .ncpt_slide_bg {
+    border: none !important; }
+
+.ncpt_widget .ncpt_hint_txt {
+    background: url("../../images/common/yzmbg.jpg") 0px center repeat-x;
+    /*background-size: cover;*/
+    color: #fff !important;
+    border-radius: 90px;
+    opacity: 1 !important;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    font-size: 14px !important;
+    text-indent: 50px;
+    background-position: 0px  center;
+    animation: myfirst 3s linear 0s infinite normal;
+    -webkit-animation: myfirst 3s linear 0s infinite normal; }
+
+
+@keyframes myfirst {
+    /*from {left: -100px;}
+    to {left: 350px;}*/
+    from {
+        background-position: -740px  center; }
+    to {
+        background-position: 0px  center; } }
+@-webkit-keyframes myfirst {
+    /*from {left: -100px;}
+    to {left: 350px;}*/
+    from {
+        background-position: -740px  center; }
+    to {
+        background-position: 0px  center; } }
+
+.ncpt_widget .ncpt_slide_bg .ncpt_slide_fg {
+    top: 1px; }

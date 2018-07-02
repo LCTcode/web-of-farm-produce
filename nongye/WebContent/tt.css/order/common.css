@@ -1,0 +1,1088 @@
+/*1000宽度的容器*/
+.container-small{
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+/*与头部分割的线条和距离*/
+.line20{
+    height: 20px;
+    border-top: #ddd solid 1px;
+    overflow: hidden;
+}
+/*栏目分割15像素*/
+.h_15{
+    height: 15px;
+    overflow: hidden;
+    clear: both;
+}
+/*分割线 顶部底部*/
+.line-bottom{
+    border-bottom: #e4e4e4 solid 1px;
+}
+.line-top{
+    border-top: #e4e4e4 solid 1px;
+}
+
+/*头部*/
+/*- header -*/
+.header{
+    height: auto;
+    background-color: #1faa50 !important;
+}
+.header .logo{
+    float: left;
+    margin-top: 17px;
+}
+.header .webname{
+    float: left;
+    margin: 17px 0 0 10px;
+    width: 165px;
+    height: 38px;
+    border-left: 1px #ffffff solid;
+    padding-left: 10px;
+    color: #ffffff;
+}
+.header .webname h2{
+    font-size: 18px;
+    line-height: 24px;
+}
+.header .webname span{
+    font-size: 10px;
+    line-height: 16px;
+}
+.logo_search {
+    float: right;
+    height: 32px;
+    padding: 20px 0 0 0;
+    width: 398px;
+}
+.logo_search .select {
+    float: left;;
+    height: 30px;
+    position: relative;
+    width: 80px;
+}
+.logo_search .select dt {
+    background: #f5f5f5 url(../../../shopOrder/images/cart/common/logo_sec_xl.jpg) 60px center no-repeat;
+    color: #666;
+    cursor: pointer;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: absolute;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 60px;
+    z-index: 99;
+}
+.select dd {
+    background: none repeat scroll 0 0 #fff;
+    left: 0;
+    position: absolute;
+    top: 32px;
+    z-index: 99;
+    display: none;
+}
+.select dd ul {
+    overflow: auto;
+    padding: 0;
+    width: 80px;
+}
+.select dd ul li{
+    display: block;
+    line-height: 32px;
+    padding: 0 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.select dd ul li:hover {
+    background: none repeat scroll 0 0 #d02e00;
+    color: #fff;
+    text-decoration: none;
+}
+.logo_search .logo_cyd_input1 {
+    color: #999;
+    float: left;
+    display: inline;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    width: 230px;
+    outline: 0;
+    border: 0;
+}
+.logo_search .logo_cyd_but1 {
+    background: #f47a11 url(../../images/order/search-ico.png) no-repeat scroll 12px 10px;
+    float: right;
+    display: inline;
+    height: 32px;
+    line-height: 32px;
+    text-indent: 30px;
+    width: 68px;
+    font-size: 14px;
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+
+
+/*进度条*/
+.schedulebar{
+    height: 123px;
+    overflow: hidden;
+    border: #e4e4e4 solid 1px;
+    background-color: #f5f5f5;
+}
+.schedulebar .nomr{
+    margin-right: 0 !important;
+}
+.schedulebar .nobar{
+    width: 42px !important;
+}
+.schedulebar .schedule-name{
+    clear: both;
+    padding-top: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+.schedulebar .schedule-ico{
+    clear: both;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    padding-left: 44px;
+}
+.schedulebar .schedule-time{
+    clear: both;
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+.schedulebar .schedule-name li,
+.schedulebar .schedule-time li
+{
+    float: left;
+    display: inline;
+    width: 130px;
+
+}
+.schedule-total-5 .schedule-name li,
+.schedule-total-5 .schedule-time li
+{
+    margin-right: 87px;
+}
+
+.schedule-total-3 .schedule-name li,
+.schedule-total-3 .schedule-time li
+{
+    margin-right: 304px;
+}
+.schedulebar .schedule-ico li{
+    float: left;
+    display: inline;
+    height: 42px;
+}
+.schedule-total-5 .schedule-ico li{
+    width: 217px;
+}
+.schedule-total-3 .schedule-ico li{
+    width: 434px;
+}
+.schedulebar .schedule-ico li label{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background-image: url("../../images/order/schedule-ico-bg.png");
+    background-repeat: no-repeat;
+    font-size: 18px;
+    color: #c1c1c1;
+}
+.schedulebar .schedule-ico li span{
+    height: 6px;
+    _font-size: 0px;
+    display: block;
+    margin-top: 18px;
+    background-color: #dcdcdc;
+}
+.schedule-total-5 .schedule-state-1 .schedule-ico .li-1 label,
+.schedule-total-5 .schedule-state-2 .schedule-ico .li-1 label,
+.schedule-total-5 .schedule-state-3 .schedule-ico .li-1 label,
+.schedule-total-5 .schedule-state-4 .schedule-ico .li-1 label,
+.schedule-total-5 .schedule-state-5 .schedule-ico .li-1 label
+{
+    background-position: -42px 0;
+    color: #67b23b;
+}
+.schedule-total-3 .schedule-state-1 .schedule-ico .li-1 label,
+.schedule-total-3 .schedule-state-2 .schedule-ico .li-1 label,
+.schedule-total-3 .schedule-state-3 .schedule-ico .li-1 label
+{
+    background-position: -84px 0;
+    color: #67b23b;
+}
+.schedule-total-5 .schedule-state-2 .schedule-ico .li-2 label,
+.schedule-total-5 .schedule-state-3 .schedule-ico .li-2 label,
+.schedule-total-5 .schedule-state-4 .schedule-ico .li-2 label,
+.schedule-total-5 .schedule-state-5 .schedule-ico .li-2 label
+{
+    background-position: -126px 0;
+    color: #67b23b;
+}
+.schedule-total-5 .schedule-state-3 .schedule-ico .li-3 label,
+.schedule-total-5 .schedule-state-4 .schedule-ico .li-3 label,
+.schedule-total-5 .schedule-state-5 .schedule-ico .li-3 label
+{
+    background-position: -168px 0;
+    color: #67b23b;
+}
+.schedule-total-3 .schedule-state-2 .schedule-ico .li-2 label,
+.schedule-total-3 .schedule-state-3 .schedule-ico .li-2 label
+{
+    background-position: -210px 0;
+    color: #67b23b;
+}
+.schedule-total-5 .schedule-state-4 .schedule-ico .li-4 label,
+.schedule-total-5 .schedule-state-5 .schedule-ico .li-4 label
+{
+    background-position: -252px 0;
+    color: #67b23b;
+}
+.schedule-total-5 .schedule-state-5 .schedule-ico .li-5 label,
+.schedule-total-3 .schedule-state-3 .schedule-ico .li-3 label
+{
+    background-position: -294px 0;
+    color: #67b23b;
+}
+.schedulebar  .schedule-state-0 .schedule-time .li-5,
+.schedulebar  .schedule-state-0 .schedule-time .li-4,
+.schedulebar  .schedule-state-0 .schedule-time .li-3,
+.schedulebar  .schedule-state-0 .schedule-time .li-2,
+.schedulebar  .schedule-state-0 .schedule-time .li-1,
+.schedulebar  .schedule-state-1 .schedule-time .li-5,
+.schedulebar  .schedule-state-1 .schedule-time .li-4,
+.schedulebar  .schedule-state-1 .schedule-time .li-3,
+.schedulebar  .schedule-state-1 .schedule-time .li-2,
+.schedulebar  .schedule-state-2 .schedule-time .li-5,
+.schedulebar  .schedule-state-2 .schedule-time .li-4,
+.schedulebar  .schedule-state-2 .schedule-time .li-3,
+.schedulebar  .schedule-state-3 .schedule-time .li-5,
+.schedulebar  .schedule-state-3 .schedule-time .li-4,
+.schedulebar  .schedule-state-4 .schedule-time .li-5
+{
+    display: none;
+}
+.schedulebar  .schedule-state-1 .schedule-ico .li-1 span,
+.schedulebar  .schedule-state-2 .schedule-ico .li-1 span,
+.schedulebar  .schedule-state-2 .schedule-ico .li-2 span,
+.schedulebar  .schedule-state-3 .schedule-ico .li-1 span,
+.schedulebar  .schedule-state-3 .schedule-ico .li-2 span,
+.schedulebar  .schedule-state-3 .schedule-ico .li-3 span,
+.schedulebar  .schedule-state-4 .schedule-ico .li-1 span,
+.schedulebar  .schedule-state-4 .schedule-ico .li-2 span,
+.schedulebar  .schedule-state-4 .schedule-ico .li-3 span,
+.schedulebar  .schedule-state-4 .schedule-ico .li-4 span,
+.schedulebar  .schedule-state-5 .schedule-ico .li-1 span,
+.schedulebar  .schedule-state-5 .schedule-ico .li-2 span,
+.schedulebar  .schedule-state-5 .schedule-ico .li-3 span,
+.schedulebar  .schedule-state-5 .schedule-ico .li-4 span,
+.schedulebar  .schedule-state-5 .schedule-ico .li-5 span
+{
+    background-color: #67b23b;
+}
+
+
+/*error*/
+
+.errorWrapper-1 {
+    left:552px;
+    top: 40px;
+}
+.errorWrapper-1 label:after {
+    background: url("../../images/personal/common/error-wrapper-left.png") no-repeat scroll 0 0;
+    bottom: 4px;
+    content: " ";
+    height: 16px;
+    position: absolute;
+    left: -6px;
+    width: 16px;
+}
+.errorWrapper-2 {
+    left:565px;
+    top: 218px;
+}
+.errorWrapper-2 label:after {
+    background: url("../../images/personal/common/error-wrapper-left.png") no-repeat scroll 0 0;
+    bottom: 14px;
+    content: " ";
+    height: 16px;
+    position: absolute;
+    left: -6px;
+    width: 16px;
+}
+.errorWrapper-2 label {
+    background: #fdf3eb none;
+    border: 1px solid #f47a11;
+    color: #f47a11;
+    padding: 8px 10px 8px 12px;
+}
+.errorWrapper-3 {
+    left:144px ;
+    background: #fff;
+}
+.errorWrapper-3 label {
+    width: auto !important;
+    height:auto !important;
+}
+/*常见问题悬浮框*/
+.float-faq{
+    width: 192px;
+    overflow: hidden;
+    position: absolute;
+}
+.float-faq .title{
+    height: 41px;
+    overflow: hidden;
+    background: #009237 url("../../images/order/float-faq-ico.jpg") 12px center no-repeat;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+    cursor: pointer;
+}
+.float-faq.pack-up .title{
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius:5px 5px 5px 5px;
+}
+.float-faq .title strong{
+    display: block;
+    padding-left: 50px;
+    line-height: 41px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    background: url("../../images/order/float-faq-arrow-up.jpg") 165px center no-repeat;
+}
+.float-faq.pack-up .title strong{
+    background: url("../../images/order/float-faq-arrow-down.jpg") 165px center no-repeat;
+}
+.float-faq .content{
+    padding: 6px 0;
+    border: #ddd solid 1px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    background-color: #f5f5f5;
+    height: auto !important;
+}
+.float-faq .content li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 22px;
+    background: url("../../images/order/float-faq-list-ico.jpg") 10px center no-repeat;
+    overflow: hidden;/*2016-6-28*/
+}
+.float-faq.pack-up .content{
+    display: none;
+}
+
+/*- 弹窗 -*/
+.popup{
+    display: none;
+}
+.popup .mask{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    _position: absolute;
+    _height: expression(document.body.clientHeight);
+    _top: expression(document.body.scrollTop);
+    z-index: 99;
+}
+.popup .box{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border: #dddddd solid 1px;
+    background-color: #fff;
+    box-shadow:0px 0px 9px #afafaf;
+    _position: absolute;
+    _top:expression(documentElement.scrollTop + (documentElement.clientHeight-this.offsetHeight)/2 + this.offsetHeight/2);
+    z-index: 10000;
+}
+.popup .box .title{
+    height: 35px;
+    background-color: #f5f5f5;
+}
+.popup .box .title h2{
+    float: left;
+    display: inline;
+    margin: 11px 0 0 17px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    border-left: #1faa50 solid 3px;
+    padding-left: 7px;
+}
+.popup .box .title .close{
+    float: right;
+    margin: 11px 10px 0 0;
+}
+.popup .box .btn a{
+    float: left;
+    display: inline;
+    width: 80px;
+    height: 32px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+}
+
+    /**-- 取消订单弹窗 --**/
+.popup-cancel .box{
+    width: 385px;
+    height: 223px;
+    margin-left: -193px;
+    margin-top: -112px;
+}
+.popup-cancel .box .content .tip{
+    padding-top: 23px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #f00;
+}
+.popup-cancel .box .content .sel{
+    height: 27px;
+    line-height: 27px;
+    padding: 20px 0 0 50px;
+}
+.popup-cancel .box .content .sel span{
+    float: left;
+    font-size: 14px;
+}
+.popup-cancel .box .content .sel .select{
+    float: right;
+    width: 122px;
+    height: 27px;
+    cursor: pointer;
+    padding-right: 50px;
+}
+.popup-cancel .box .content .sel .select label{
+    display: block;
+    width: 104px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    border: #ddd solid 1px;
+    padding: 0 8px;
+    background: url("../../images/order/popup-select-arrow-down.jpg") 103px 11px no-repeat;
+    cursor: pointer;
+}
+.popup-cancel .box .content .sel .select ul{
+    position: absolute;
+    right: 50px;
+    _right:49px;
+    top: 128px;
+    min-width:120px;
+    _width:120px;
+    border: #ddd solid 1px;
+    z-index: 1;
+    background-color: #fff;
+    display: none;
+}
+.popup-cancel .box .content .sel .select ul li{
+    padding: 0 8px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.popup-cancel .box .content .sel .select ul li:hover{
+    background-color: #f5f5f5;
+}
+.popup-cancel .box .content .btn{
+    padding-top: 44px;
+}
+.popup-cancel .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 95px;
+}
+.popup-cancel .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+    /**-- 订单提示弹窗 --**/
+.popup-tip .box{
+    width: 445px;
+    height: 164px;
+    margin-left: -193px;
+    margin-top: -83px;
+}
+.popup-tip .box .content h2{
+    margin: 27px 0 0 47px;
+    height: 35px;
+    line-height: 35px;
+    background: url("../../images/order/tip-ico-fail.png") left center no-repeat;
+    padding-left: 50px;
+    font-size: 16px;
+}
+.popup-tip .box .content p{
+    height: 20px;
+    line-height: 20px;
+    margin: 8px 20px 0 46px;
+    font-size: 14px;
+}
+    /**-- 修改价格弹窗 --**/
+.popup-edit-price .box{
+    width: 385px;
+    height: 300px;
+    margin-left: -193px;
+    margin-top: -151px;
+}
+.popup-edit-price .box .content ul{
+    padding-top: 30px;
+}
+.popup-edit-price .box .content li{
+    clear: both;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+}
+.popup-edit-price .box .content li label,
+.popup-edit-price .box .content li .label{
+    float: left;
+    width: 158px;
+    text-align: right;
+    overflow: hidden;
+    height: 35px;
+    font-size: 14px;
+    
+}
+.popup-edit-price .box .content li span{
+    float: left;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.popup-edit-price .box .content li .unit{
+    width: 15px;
+    padding-left: 5px;
+}
+.popup-edit-price .box .content li input{
+    float: left;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    border: #ddd solid 1px;
+    outline: 0;
+    padding: 0 5px;
+}
+.popup-edit-price .box .content .btn{
+    padding-top: 40px;
+}
+.popup-edit-price .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 95px;
+}
+.popup-edit-price .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+    /**-- 确认删除弹窗 --**/
+.popup-del .box{
+    width: 385px;
+    height: 185px;
+    margin-left: -193px;
+    margin-top: -93px;
+}
+.popup-del .box .content .tip{
+    padding: 26px 40px 0 40px;
+    color: #f00;
+    font-size: 14px;
+    line-height: 18px;
+}
+.popup-del .box .content .btn{
+    padding-top: 35px;
+}
+.popup-del .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 95px;
+}
+.popup-del .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+    /**-- 拒绝退款弹窗 --**/
+.popup-refund-refused .box{
+    width: 480px;
+    height: 410px;
+    margin-left: -241px;
+    margin-top: -206px;
+}
+.popup-refund-refused .box .content{
+    padding: 15px 30px;
+}
+.popup-refund-refused .box .content h2{
+    line-height: 26px;
+    height: 26px;
+    font-size: 14px;
+    padding: 15px 0 10px 0;
+}
+.popup-refund-refused .box .content h2 span.error-waring {
+    padding-left: 20px;
+    color: #ff0000;
+    margin-left: 10px;
+    background: url("../../../auth/images/common/error.png") center left no-repeat;
+}
+.popup-refund-refused .box .content p{
+    line-height: 26px;
+    height: 26px;
+    font-size: 14px;
+}
+.popup-refund-refused .box .content .message{
+    width: 410px;
+    height: 112px;
+    line-height: 20px;
+    border: #ddd solid 1px;
+}
+.popup-refund-refused .box .content .number {
+    width: 422px;
+    text-align: right;
+    line-height: 26px;
+    font-size: 14px;
+}
+.popup-refund-refused .box .content .btn{
+    padding-top: 5px;
+}
+.popup-refund-refused .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 140px;
+}
+.popup-refund-refused .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+    /**-- 同意退款弹窗 --**/
+.popup-refund-agree .box{
+    width: 480px;
+    height: 205px;
+    margin-left: -241px;
+    margin-top: -151px;
+}
+.popup-refund-agree .box .content{
+    font-size: 14px;
+    padding: 34px 30px;
+}
+.popup-refund-agree .box .content p{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #999;
+}
+.popup-refund-agree .box .content p label{
+    width: 200px;
+    text-align: right;
+    display: inline-block;
+}
+.popup-refund-agree .box .content .btn{
+    padding-top: 30px;
+}
+.popup-refund-agree .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 118px;
+}
+.popup-refund-agree .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+
+/**-- 申请退款弹窗 --**/
+.popup-refund-apply .box{
+    width: 340px;
+    height: 172px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-refund-apply .box .content{
+    background: url("../../images/order/tip-ico-success.png") 83px 38px no-repeat;
+    height: 120px;
+}
+.popup-refund-apply .box .content h2{
+    padding: 34px 0 0 132px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+}
+.popup-refund-apply .box .content p{
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 132px;
+    font-size: 14px;
+    color: #999;
+}
+.popup-refund-apply .box .content p span{
+    color: #f00;
+}
+
+/**-- 修改物流信息 --**/
+.popup-logistics .box{
+    width: 420px;
+    height: 255px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-logistics .content{
+    font-size: 14px;
+    padding: 34px 30px;
+    text-align: center;
+}
+.popup-logistics .content label{
+}
+.popup-logistics .content .c-p{
+    line-height: 32px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.popup-logistics .content .c-p input{
+    width: 270px;
+}
+.popup-logistics .box .content .btn{
+    padding-top: 15px;
+}
+.popup-logistics .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 85px;
+}
+.popup-logistics .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+/**-- 发货 --**/
+.popup-shipments .box{
+    width: 420px;
+    height: 255px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-shipments .content{
+    font-size: 14px;
+    padding: 34px 30px;
+    text-align: center;
+}
+.popup-shipments .content label{
+}
+.popup-shipments .content .c-p{
+    line-height: 32px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.popup-shipments .content .c-p input{
+    width: 270px;
+}
+.popup-shipments .box .content .btn{
+    padding-top: 15px;
+}
+.popup-shipments .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 85px;
+}
+.popup-shipments .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+/**-- 确定延长收货时间 --**/
+.popup-delay .box{
+    width: 385px;
+    height: 176px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-delay .content{
+    font-size: 16px;
+    padding: 34px 30px;
+    text-align: center;
+}
+.popup-delay .content p{
+    line-height: 32px;
+}
+.popup-delay .box .content .btn{
+    padding-top: 15px;
+}
+.popup-delay .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 60px;
+}
+.popup-delay .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+/**-- 延长收货时间 --**/
+.popup-delays .box{
+    width: 385px;
+    height: 176px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-delays .content{
+    font-size: 14px;
+    padding: 34px 30px;
+    text-align: center;
+}
+.popup-delays .content p{
+    line-height: 32px;
+}
+.popup-delays .box .content .btn{
+    padding-top: 15px;
+}
+.popup-delays .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 60px;
+}
+.popup-delays .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+
+/**-- 物流信息 --**/
+.popup-infor .box{
+    width: 385px;
+    height: 246px;
+    margin-left: -171px;
+    margin-top: -87px;
+}
+.popup-infor .content{
+    font-size: 14px;
+    padding: 34px 30px;
+    text-align: center;
+}
+.popup-infor .content p{
+    line-height: 32px; text-align: left;
+}
+.popup-infor .box .content .btn{
+    padding-top: 15px;
+}
+.popup-infor .box .content .btn a.confirm{
+    background-color: #f47a11;
+    margin-left: 60px;
+}
+.popup-infor .box .content .btn a.confirm_big{
+    background-color: #f47a11 !important;
+    margin-left: 0px !important;
+    display: inline-block;
+    float: none;
+}
+.popup-infor .box .content .btn a.close{
+    background-color: #6c6c6c;
+    margin-left: 25px;
+}
+
+/**-- 网上支付提示 --**/
+.popup-pay-tip .box{
+    width: 554px;
+    height: 254px;
+    margin-left: -277px;
+    margin-top: -127px;
+}
+.popup-pay-tip .content{
+    background: url("../../images/order/tip-ico-process.png") 50px 30px no-repeat;
+}
+.popup-pay-tip .content h2{
+    padding: 30px 0 0 104px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #666;
+}
+.popup-pay-tip .content p{
+    padding: 0 0 0 104px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #666;
+}
+.popup-pay-tip .box .content .btn{
+    padding-top: 44px;
+}
+.popup-pay-tip .box .content .btn a.problem{
+    background-color: #f0f0f0;
+    margin-left: 134px;
+    width: 131px;
+    height: 34px;
+    line-height: 34px;
+    border: #dbdbdb solid 1px;
+    color: #666;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.popup-pay-tip .box .content .btn a.confirm{
+    background-color: #009237;
+    margin-left: 20px;
+    width: 133px;
+    height: 36px;
+    line-height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/**-- 未支付成功 --**/
+.popup-pay-fail .box{
+    width: 444px;
+    height: 216px;
+    margin-left: -222px;
+    margin-top: -108px;
+}
+.popup-pay-fail .content{
+    background: url("../../images/order/tip-ico-process.png") 50px 30px no-repeat;
+}
+.popup-pay-fail .content h2{
+    padding: 30px 0 0 104px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #666;
+}
+.popup-pay-fail .box .content .btn{
+    padding-top: 44px;
+}
+.popup-pay-fail .box .content .btn a.confirm{
+    background-color: #009237;
+    margin-left: 152px;
+    width: 133px;
+    height: 36px;
+    line-height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/**-- 支付成功 --**/
+.popup-pay-success .box{
+    width: 444px;
+    height: 216px;
+    margin-left: -222px;
+    margin-top: -108px;
+}
+.popup-pay-success .content{
+    background: url("../../images/order/tip-ico-success.png") 50px 30px no-repeat;
+}
+.popup-pay-success .content h2{
+    padding: 30px 0 0 104px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #666;
+}
+.popup-pay-success .content p{
+    padding: 0 0 0 104px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #666;
+}
+.popup-pay-success .box .content .btn{
+    padding-top: 25px;
+}
+.popup-pay-success .box .content .btn a.confirm{
+    background-color: #009237;
+    margin-left: 152px;
+    width: 133px;
+    height: 36px;
+    line-height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/**-- 支付成功 --**/
+.popup-seller-explain .box{
+    width: 474px;
+    height: 280px;
+    margin-left: -237px;
+    margin-top: -140px;
+}
+.popup-seller-explain .content{
+    padding-top: 20px;
+}
+.popup-seller-explain .content h2{
+    width: 70px;
+    height: 32px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 8px;
+}
+.popup-seller-explain .content p{
+    width: 330px;
+    float: left;
+    display: inline;
+}
+.popup-seller-explain .content p textarea{
+    width: 314px;
+    height: 109px;
+    padding: 5px;
+    border: #ddd solid 1px;
+    outline: 0;
+}
+.popup-seller-explain .content span{
+    float: left;
+    display: inline;
+    margin-top: 100px;
+}
+.popup-seller-explain .box .content .btn{
+    clear: both;
+    padding-top: 30px;
+}
+.popup-seller-explain .box .content .btn a.submit{
+    background-color: #009237;
+    margin-left: 93px;
+    width: 133px;
+    height: 36px;
+    line-height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.popup-seller-explain .box .content .btn a.close{
+    background-color: #f0f0f0;
+    color: #666;
+    border: #dbdbdb solid 1px;
+    margin-left: 20px;
+    width: 131px;
+    height: 34px;
+    line-height: 34px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+

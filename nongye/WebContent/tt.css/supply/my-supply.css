@@ -1,0 +1,285 @@
+.tip-txt{
+    height: 43px;
+    overflow: hidden;
+    background-color: #fff9e1;
+    margin-top: 20px;
+    line-height: 43px;
+    font-size: 14px;
+}
+.tip-txt ul{
+    float: left;
+    display: inline;
+    padding-left: 15px;
+    width: 920px;
+    overflow: hidden;
+}
+.tip-txt li{
+    float: left;
+    display: inline;
+    margin-right: 35px;
+}
+.tip-txt .close{
+    float: right;
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+    background: url("../../../images/personal/supply/tip-txt-close.gif") center no-repeat;
+    background-color: #fff1c4;
+    cursor: pointer;
+}
+.list-menu{
+    height: 38px;
+    margin-top: 15px;
+}
+.list-menu ul{
+    float: left;
+    display: inline;
+    height: 38px;
+    border-left: #e7e7e7 solid 1px;
+}
+.list-menu ul li{
+    float: left;
+    display: inline;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 15px;
+    min-width: 72px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    border-top: #e7e7e7 solid 1px;
+    border-right: #e7e7e7 solid 1px;
+    cursor: pointer;
+}
+.list-menu ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.list-menu ul li.on{
+    height: 38px;
+    background-color: #fff;
+}
+.list-menu .release{
+    float: right;
+    width: 98px;
+    height: 31px;
+    overflow: hidden;
+    background-color: #f47a11;
+    line-height: 31px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    -moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius: 3px;            /* W3C syntax */
+    text-decoration: none;
+}
+.list-menu .release:hover{
+    background-color: #ff4200;
+}
+.w1{width: 82px;}
+.w2{width: 195px;}
+.w3{width: 150px;}
+.w4{width: 90px;}
+.w5{width: 160px;}
+.w6{width: 120px;}
+.w7{width: 95px;}
+.list-tit{
+    height: 40px;
+    border: #e7e7e7 solid 1px;
+    margin-bottom: 15px;
+}
+.list-02 {
+    margin-bottom: 0 !important;
+    border-bottom: 0;
+}
+.list-tit ul{
+    padding-left: 15px;
+}
+.list-tit li{
+    float: left;
+    display: inline;
+    line-height: 40px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+.list-tit li.w1{
+    text-align: left;
+}
+.list-tit li.w2{
+    text-align: left;
+    text-indent: 50px;
+}
+
+.supply-list .no-info{
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #666;
+}
+.supply-list .list {
+    border: #e7e7e7 solid 1px;
+    margin-bottom: 15px;
+}
+.supply-list .list .list-title{
+    height: 30px;
+    line-height: 30px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #999;
+}
+.supply-list .list .list-title .time{
+    float: left;
+    padding-left: 15px;
+}
+.supply-list .list .list-title .txt{
+    float: right;
+    padding-right: 15px;
+}
+.supply-list .list .list-title .reason{
+    color: #f00;
+}
+.supply-list .list .list-con{
+    height: 112px;
+    overflow: hidden;
+}
+.supply-list .list .list-con ul{
+    padding-left: 15px;
+}
+.supply-list .list .list-con li{
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    color: #666;
+}
+.supply-list .list .list-con li.w1{
+    text-align: left;
+}
+.supply-list .list .list-con li.w1 img{
+    width: 80px;
+    height: 80px;
+    border: #e7e7e7 solid 1px;
+    margin-top: 15px;
+}
+.supply-list .list .list-con li.w2{
+    text-align: left;
+}
+.supply-list .list .list-con li.w2 a{
+    display: block;
+    line-height: 20px;
+    padding-top: 17px;
+    font-weight: normal;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.supply-list .list .list-con li.w2 p{
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    height: 60px;
+}
+.supply-list .list .list-con li.w3,
+.supply-list .list .list-con li.w4,
+.supply-list .list .list-con li.w5,
+.supply-list .list .list-con li.w6
+{
+    line-height: 112px;
+}
+.supply-list .list .list-con li.w3 font{
+    color: #f00;
+}
+.supply-list .list .list-con li.w6 span{
+    padding-top: 33px;
+    display: block;
+    line-height: 24px;
+}
+.supply-list .list .list-con li.w6 div{
+    height: 22px;
+    line-height: 22px;
+}
+.supply-list .list .list-con li.w6 a{
+    line-height: 22px;
+    font-size: 12px;
+    color: #f47a11;
+    position: relative;
+}
+.supply-list .list .list-con li.w7 .btn-total-1{
+    padding-top: 46px;
+}
+.supply-list .list .list-con li.w7 .btn-total-2{
+    padding-top: 32px;
+}
+.supply-list .list .list-con li.w7 .btn-total-3{
+    padding-top: 18px;
+}
+.supply-list .list .list-con li.w7 span ,
+.supply-list .list .list-con li.w7 a{
+    display: block;
+    width: 46px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 0 7px 28px;
+}
+.supply-list .list .list-con li.w7 .green {
+    color: #1faa50 !important;
+}
+.supply-list .list .list-con li.w7 .gray {
+    color: #999 !important;
+}
+
+
+
+body .hn-tips .layui-layer-content{
+    border: #f00 solid 1px;
+    color: #f00;
+    text-indent: 20px;
+    font-size: 14px;
+    background: url("../../../images/personal/common/input_check_error.gif") 10px 10px no-repeat;
+}
+body .hn-tips  i.layui-layer-TipsG {
+    border-width: 0px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url("../../../images/personal/common/error-wrapper-down.png") no-repeat;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg); 	/* IE 9 */
+    -moz-transform:rotate(180deg); 	/* Firefox */
+    -webkit-transform:rotate(180deg); /* Safari 閸滐拷 Chrome */
+    -o-transform:rotate(180deg); 	/* Opera */
+    top: -9px;
+    left: 20px;
+}
+
+/*- 2016-7-27 checkbox-all -*/
+.checkbox-all input,
+.checkbox-all span{
+    float: left;
+}
+.checkbox-all input {
+    margin-top: 14px;
+    margin-right: 8px;
+}
+.upload-all input {
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+.checkbox-box {
+    float: left;
+    padding-left: 15px;
+}
+.checkbox-box input {
+    float: left;
+    margin-top: 8px;
+}

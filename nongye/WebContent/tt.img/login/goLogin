@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta http-equiv="pragma" content="no-cache">
+<meta property="qc:admins" content="1542331311360632636" />
+<meta property="wb:webmaster" content="97be2c15235e9734" />
+<title>登录</title>
+<link rel="stylesheet" href="https://static.cnhnb.com/4.0/css/common/base.min.css?v=20170408">
+<link rel="stylesheet" href="https://static.cnhnb.com/4.0/css/common/common.css?v=20170408">
+<link rel="stylesheet" href="https://static.cnhnb.com/4.0/css/reg/regs.css?v=20170408">
+</head>
+<body>
+
+<div class="header clearfix">
+        <div class="logo-box fl">
+            <div class="logo fl">
+                <a href="http://www.cnhnb.com/"><img src='https://static.cnhnb.com/4.0/images/reg/logo.jpg' alt="中国惠农网"></a>
+            </div>
+            <div class="logotext lh22 fl ml10">
+                <div class="fs18">用户登录</div>
+                <div class="">客服热线：400-008-8688</div>
+            </div>
+        </div>  
+        <div class="links fr">
+            <span>
+                <i class="fl"><img src="https://static.cnhnb.com/4.0/images/reg/ico/top_ico_01.jpg"></i>
+                <div class="lh22 fs14 fl ml10">
+                   <p>海量供应</p> 
+                   <p>实时更新</p> 
+                </div>
+            </span>
+            <span>
+                <i class="fl"><img src="https://static.cnhnb.com/4.0/images/reg/ico/top_ico_02.jpg"></i>
+                <div class="lh22 fs14 fl ml10">
+                   <p>采购信息</p> 
+                   <p>免费发布</p> 
+                </div>
+            </span>
+            <span>
+                <i class="fl"><img src="https://static.cnhnb.com/4.0/images/reg/ico/top_ico_03.jpg"></i>
+                <div class="lh22 fs14 fl ml10">
+                   <p>知名产地 </p> 
+                   <p>源头好货</p> 
+                </div>
+            </span>
+        </div>
+    </div>
+
+<script type="text/javascript" src="https://static.cnhnb.com/js/home/mobileRedirect.js"></script>
+<script type="text/javascript">
+	var type="";
+	var msg = "";
+	var url = "http://m.cnhnb.com/muser/goLogin?returnUrl=http://m.cnhnb.com/";
+	if(type == "logout"){
+		url = "http://m.cnhnb.com/muser/goLogin?type=logout&returnUrl=http://m.cnhnb.com/";
+	}
+	if(msg.length>0){
+		url+="&msg="+msg;
+	}
+	uaredirect(url);
+</script> 
+<input type="hidden" id="isRemberPwd" name="isRemberPwd" value="0" />
+<input type="hidden" id="remberUserAccount" name="remberUserAccount" value="" />
+<div class="container clearfix">
+        <div class="reg-box reg-left">
+            <div class="fl">
+    	<a href="http://app.cnhnb.com/appApk/huinongwang?=dl"><img src="http://pageblockslookup.cnhnb.com/media/filebin/PC-0713.jpg"></a>
+    </div>
+        </div>
+        <div class="login-box reg-right">
+            <div class="tab_way">
+                <a href="javascript:void(0);" class="on" lway="1">密码登录</a><a href="javascript:void(0);" lway="2">手机快速登录</a>
+            </div>
+            <div class="login-away">
+            	<form>
+            	<input type="hidden" name="isRememberPwd" id="isRememberPwd"/>
+                <div class="login-input" id="duserAccount">
+                    <input type="text" class="username" onfocus="this.id='userAccount';this.name='userAccount'" placeholder="手机号/用户名" onkeyup="this.value=this.value.replace(/^ +| +$/g,'')" autocomplete="off" phptag="phptag_pc_login_number">
+                    <div id="userAccount-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="userAccountv">手机号/用户名</label>
+                    </div>
+                </div>
+                <div class="login-input" id="dpassword">
+                    <input class="password" placeholder="请输入密码" value="" onfocus="this.id='password';this.name='password';this.type='password'" autocomplete="off" phptag="phptag_pc_login_password">
+                    <div id="password-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="passwordv">密码为6~16位数字、字母或符号,字母区分大小写</label>
+                    </div>
+                </div>
+                <div class="login-input tyzm other" id="dvalcode">
+                    <input type="text" placeholder="请输入图形验证码" name="valCode" id="valCoded" maxlength="4"><img src="" id="imgValidate">
+                    <div id="valCoded-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="valCodedv">手机号/用户名</label>
+                    </div>
+                </div>
+                <p class="plab tyzm"><span class="ft14">看不清，<a href="javascsript:void(0);" id="img">换一张</a></span></p>
+                <p class="plab"><input type="checkbox" id="forget-check"><label for="reget">下次自动登录</label></p>
+                <div class="login-input">
+                    <input type="button" class="sibmit" id="userlogin" phptag="phptag_pc_login_button" value="登录">
+                    <p class="plab clearfix"><span class="reg-left"><a href="https://passport.cnhnb.com/myinfo/goReg"> 用户免费注册</a></span> <span class="reg-right"><a href="https://passport.cnhnb.com/myinfo/getPwd">忘记密码</a></span></p>
+                </div>
+                </form>
+            </div>
+            <div class="login-away" style="display: none;">
+                <div class="login-input">
+                    <input type="text" class="username" name="mobile" id="mobile" maxlength="11" placeholder="请输入手机号" autocomplete="off" phptag="phptag_pc_fastlogin_number">
+                    <div id="mobile-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="mobilev">请输入13/14/15/17/18开头的11位数字</label>
+                    </div>
+                </div>
+                <div class="login-input other">
+                    <input type="text" name="phoneCode" id="phoneCode" maxlength="4" class="code" phptag="phptag_pc_reg_inputcode" placeholder="请输入验证码" >
+                    <input type="button" class="yzm disable" id="button-phone" value="获取验证码" disabled="disabled"></input>
+                    <div id="phoneCode-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="phoneCodev">请输入验正确证码</label>
+                    </div>
+                </div>
+                <p class="plab hidden">收不到短信？试试<a href="javascript:void(0);" target="_self" id="sendVoice">语音验证码 </a>，请注意接听手机</p>
+                <div class="login-input" id="f-pwd" style="display: none;">
+                    <input class="password" placeholder="点击设置密码" value="" onfocus="this.id='txt_password';this.name='password';this.type='password'" autocomplete="off" phptag="phptag_pc_login_password">
+                    <div id="txt_password-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="txt_passwordv">密码为6~16位数字、字母或符号,字母区分大小写</label>
+                    </div>
+                </div>
+                <div class="login-input" id="f-lm" style="display: none;">
+                    <input type="text" attr_name="linkMan" id="linkMan" id="rule_lm" placeholder="点击设置姓名" autocomplete="off" phptag="phptag_pc_fastlogin_name">
+                    <div id="linkMan-error" class="errorWrapper" style="display: none;">
+                        <label class="error" id="linkManv">联系人姓名不能为空，请输入3~12位中文字符</label>
+                    </div>
+                </div>
+                <div class="login-input">
+                	<input type="hidden" id="ftype" value="1" />
+                    <input type="button" class="sibmit" phptag="phptag_pc_fastlogin_button" id="fastLogin" value="同意并登录">
+                </div>
+            </div>
+            <div class="login-input bod">
+                可使用以下账户登录
+            </div>
+            <div class="login-abox">
+                <a href="javascript:turn('qq')" id="qqlogin" target="_self" phptag="phptag_pc_login_QQ"><img src="https://static.cnhnb.com/4.0/images/common/qq.png"></a>
+                <a href="javascript:turn('wb')" id="wblogin" target="_self" phptag="phptag_pc_login_weibo"><img src="https://static.cnhnb.com/4.0/images/common/xinlang.png"></a>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/js/jquery-1.7.2.min.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/myhn/js/core/windows.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/js/frame/hn.frame.validator-0.1.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/js/jquery.form.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/js/jquery.validate.min.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/js/jquery.metadata.js?v=20170408"></script>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/js/messages_cn.js?v=20170408"></script>
+<script src="//c.dun.163yun.com/js/c.js"></script>
+<script>
+var init={
+		webUrl:"https://passport.cnhnb.com/",
+		returnUrl:"http%3A%2F%2Fhnuser.cnhnb.com%2Fuc-web%2Fmyhn%2Findex",
+		homeWebUrl:"http://www.cnhnb.com/",
+		type:"",
+		ssoexitUrl:"https://cookie.cnhnb.com/exit",
+		imgShowCode:"Y",
+		hnyoux:"http://hnyoux.cnhnb.com/"
+}
+</script>
+<script type="text/javascript" src="https://static.cnhnb.com/auth/login/goLogin.js?v=20170408"></script>
+<script type="text/javascript">
+if(window.top !== window.self){ window.top.location = window.location;}
+function turn(aa){
+	var returnUrl=init.returnUrl;
+	window.location=init.webUrl+"thirdparty/tologin?type="+aa+"&returnUrl="+returnUrl+"&logType=1";
+}
+</script>
+
+<link rel="stylesheet" href="https://static.cnhnb.com/4.0/css/common/common.css">
+
+<div class="footer">
+  <div class="container">
+    <div class="quick-nav">
+      <ul class="icon clearfix">
+        <li class="i1"><img src="//static.cnhnb.com/4.0/images/index/quick-nav-icon-1.gif" alt="资源多">
+          <p><span>资源多</span><span>海量信息免费发</span></p>
+        </li>
+        <li class="i2"><img src="//static.cnhnb.com/4.0/images/index/quick-nav-icon-2.gif" alt="优惠大">
+          <p><span>优惠大</span><span>挑战市场超低价</span></p>
+        </li>
+        <li class="i3"><img src="//static.cnhnb.com/4.0/images/index/quick-nav-icon-3.gif" alt="销售广">
+          <p><span>销售广</span><span>采购便捷一站式</span></p>
+        </li>
+        <li class="i4"><img src="//static.cnhnb.com/4.0/images/index/quick-nav-icon-4.gif" alt="更安全">
+          <p><span>更安全</span><span>实名认证更安心</span></p>
+        </li>
+      </ul>
+      <div class="list clearfix">
+        <dl class="clearfix">
+          <dt>新手指南</dt>
+          <dd><a href="http://help.cnhnb.com/problem/detail/306 "target="_blank" rel="nofollow">注册新用户</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/328" target="_blank" rel="nofollow">实名认证</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/309" target="_blank" rel="nofollow">找回密码</a></dd>
+          <dd><a href="http://help.cnhnb.com/service.htm" target="_blank" rel="nofollow">帮助中心</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/401" target="_blank" rel="nofollow">安装手机惠农网</a></dd>
+        </dl>
+        <dl class="clearfix">
+          <dt>采购商服务</dt>
+          <dd><a href="http://www.cnhnb.com/supply/" target="_blank">找供应</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/351" target="_blank" rel="nofollow">发布采购</a></dd>
+        </dl>
+        <dl class="clearfix">
+          <dt>供应商服务</dt>
+          <dd><a href="http://www.cnhnb.com/purchase/" target="_blank">找采购</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/420" target="_blank" rel="nofollow">发布供应</a></dd>
+        </dl>
+        <dl class="clearfix">
+          <dt>交易安全</dt>
+          <dd><a href="http://help.cnhnb.com/problem/detail/411" target="_blank" rel="nofollow">卖家防骗</a></dd>
+          <dd><a href="http://www.cnhnb.com/xt/list-9027/" target="_blank">营销推广</a></dd>
+          <dd><a href="http://help.cnhnb.com/problem/detail/412" target="_blank" rel="nofollow">买家防骗</a></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="ptb20 clearfix">
+      <div class="foot-qr clearfix">
+        <div class="qrcode"><img src="http://static.cnhnb.com/4.0/images/common/topbar-hn-app.gif" alt="手机惠农网">
+          <p><span>扫一扫下载</span><span>手机APP</span></p>
+        </div>
+        <div class="qrcode"><img src="//static.cnhnb.com/4.0/images/common/topbar-qrcode.gif" alt="惠农官方微信">
+          <p><span>扫码关注</span><span>惠农官方微信</span></p>
+        </div>
+      </div>
+      <ul class="foot-nav clearfix">
+        <li><a href="http://www.cnhnb.com/help/about.html" target="_blank" rel="nofollow">关于我们</a></li>
+        <li><a href="http://www.cnhnb.com/help/legal.html" target="_blank" rel="nofollow">法律声明</a></li>
+        <li><a href="http://www.cnhnb.com/help/agreement.html" target="_blank" rel="nofollow">使用协议</a></li>
+        <li><a href="http://www.cnhnb.com/help/privacy.html" target="_blank" rel="nofollow">版权隐私</a></li>
+        <li><a href="http://www.cnhnb.com/link.html" target="_blank" rel="nofollow">友情链接</a></li>
+        <li><a href="http://www.cnhnb.com/help/case.html" target="_blank" rel="nofollow">成功案例</a></li>
+        <li><a href="http://www.cnhnb.com/help/major.html" target="_blank" rel="nofollow">惠农大事记</a></li>
+        <li><a href="http://www.cnhnb.com/chanpinku.html" target="_blank">产品库</a></li>
+        <li><a href="http://www.cnhnb.com/pinzhongku.html" target="_blank">品种库</a></li>
+        <li><a href="http://www.cnhnb.com/sitemap.html" target="_blank">网站地图</a></li>
+      </ul>
+      <div class="copyright">
+        <p>湘ICP备13007354号-1  | 服务热线：400-008-8688</p>
+        <p>互联网药品信息服务资格证书:(湘)-经营性-2014-0005 湖南惠农科技有限公司  <a href="http://pageblockslookup.cnhnb.com/media/filebin/HN-zhizhao.jpg" target="_blank">营业执照号</a></p>
+        <p>&copy;2011-2018 Cnhnb B2B SYSTEM All Rights Reserved</p>
+        <p class="imgs"><a target="_blank" href="http://www.hnga.gov.cn" rel="nofollow"><img alt="45" src="//static.cnhnb.com/myhn/message/images/jhd_45.png"></a><a target="_blank" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" rel="nofollow"><img alt="47" src="//static.cnhnb.com/myhn/message/images/jhd_47.png"></a><a target="_blank" href="http://webscan.360.cn/" rel="nofollow"><img alt="55" src="//static.cnhnb.com/myhn/message/images/jhd_55.png"></a><a  key ="57e25f0aefbfb061c0939f6d"  logo_size="83x30" logo_type="business"  href="http://www.anquan.org" rel="nofollow"></a><script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script></p>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?91cf34f62b9bedb16460ca36cf192f4c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<div class="hidden">
+<script  id="hn_analytics_all" type="text/javascript" src="//static.cnhnb.com/js/analytics/analytics.cnhnb.com-min.js?version=20150809"></script>
+<script type="text/javascript" src="//hnlog.cnhnb.com/js/online.behavior.funnel.js?v=1"></script>
+</div>
+<!--[if lte IE 6]>
+    <script type="text/javascript" src="//static.cnhnb.com/4.0/libs/DD_belatedPNG/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script type="text/javascript">DD_belatedPNG.fix('.pngfix, a.pngfix:hover');</script>
+<![endif]-->
+
+</body>
+</html>
