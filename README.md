@@ -3,3 +3,4 @@
 
 数据库的话您可以点击 https://pan.baidu.com/s/1n34adWFlzowl8Qrf1WDsGA 进行下载，然后使用powerdesigner打开并生成数据库sql文件即可。
 
+![](https://sandbox.runjs.cn/uploads/rs/420/hza8ayan/E_R.jpg)
